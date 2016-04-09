@@ -1,0 +1,28 @@
+package temperaturas;
+import java.util.*;
+
+public class Temperaturas {
+
+    
+    public static void main(String[] args) {
+       int grados=0;
+       int media=0;
+       int a;
+       Scanner z=new Scanner(System.in);
+       System.out.println("Cuantas posiciones va a tener el array?");
+       a=z.nextInt();
+       int temperatura[]=new int [a];
+       
+       for(int contador=0;contador<a;contador++){
+           System.out.println("Ingresa las temperaturas");
+           grados=z.nextInt();
+           temperatura[contador]=grados;
+       }
+       for(int contador=0;contador<a;contador++){
+           media=media+temperatura[contador];
+       }
+       media=media/a;
+       System.out.println("la media es: "+media);
+    }
+    
+}
