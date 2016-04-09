@@ -1,5 +1,6 @@
 package temperaturas;
 import java.util.*;
+//Este programa va a pedir al usuario que ingrese la temperatura de las ciudades que el quiera y lo que el programa va hacer es sacar la media de todas las temperaturas
 
 public class Temperaturas {
 
