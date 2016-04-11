@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Temperaturas {
 
-    
+    //ejemplo modificación Jesús (profe)
     public static void main(String[] args) {
        int grados=0;
        int media=0;
