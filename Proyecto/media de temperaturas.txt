@@ -2,7 +2,7 @@ package temperaturas;
 import java.util.*;
 
 public class Temperaturas {
-
+    //Asi no nene... ya no son horas de seguir con el GITHUB
     //ejemplo modificación Jesús (profe)
     public static void main(String[] args) {
        int grados=0;
